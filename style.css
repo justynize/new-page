@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:  #e7e8d1;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav ul li a:hover{
+    color: #007BFF;
+}
+.cont{
+    background-color: #a7beae;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+}
+.log{
+    color: red;
+}
+.reg{
+    display: flex;margin-top: 50px;
+    gap: 200px;
+}
+.lab:hover{
+    color: red;
+}
+button{
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+   text-decoration: none;
+}
+button:hover{
+    background-color: #0056b3;
+    transition: scale 0.5s;
+    transform: scale(1.05);
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.form-container{
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 50px;
+    gap: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+label a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+   text-decoration: none;
+   margin-top: 50px;
+   margin-bottom: 20px;
+}
+.btn:hover{
+    background-color: #007BFF;
+    transition: scale 0.5s;
+    transform: scale(1.05);
+}
+.icon{
+    display: flex;
+    gap: 20px;
+   width: 30px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: auto;
+    /* border: 1px solid red; */
+    gap: 50px;
+    min-height: 100px;
+    flex-shrink: 0;
+}
+.icons img{
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
