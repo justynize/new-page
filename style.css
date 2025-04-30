@@ -98,15 +98,23 @@ label a{
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: 0.3s;
    text-decoration: none;
    margin-top: 50px;
    margin-bottom: 20px;
+}
+button:disabled{
+    background-color: rgb(190, 199, 199);
+    cursor: not-allowed;
 }
 .btn:hover{
     background-color: #007BFF;
     transition: scale 0.5s;
     transform: scale(1.05);
+}
+.error{
+    color: red;
+    font-size: 15px;
 }
 .socials{
     display: flex;
