@@ -26,32 +26,39 @@
                     <button><a href="">Register with us today:</a></button>
                 </div>
                 <div class="form-container">
-                    <form>
-                        <label for="">Name</label>
-                        <input type="text" id="name" placeholder="Surname first" required>
+                    <form id="myForm">
+                       
+                        <label for="">Name:</label>
+                        <input type="text" id="name" placeholder="Enter your full name" required>
                         <div class="error" id="nameError"></div>
 
-                        <label for="">Number</label>
-                        <input type="number" id="number" placeholder="Enter your phone no." required>
-                        <div class="error" id="numberError"></div>
+                        <label for="">Phone No:</label>
+                        <input type="number" id="number" placeholder="Enter your phone No:" required>
+                        <div class="error" id="phoneError"></div>
 
-                        <label for="">Age</label>
-                        <input type="number" id="age" placeholder="How old are you" required>
-                        <div class="error" id="ageError"></div>
-        
-        
-        
+                        <label for="">Date of Birth:</label>
+                        <input type="date" id="date" placeholder="" required>
+                        <div class="error" id="dateError"></div>
+
+                        <label for="">Gender:</label>
+                        <input type="text" id="gender" placeholder="" required>
+                        <div class="error" id="gederError"></div>
+
                         <label for="">Email</label>
                         <input type="email" id="email" placeholder="Enter your email" required>
                         <div class="error" id="emailError"></div>
         
-                        <label for="">Choose a password</label>
+                        <label for="">Password</label>
                         <input type="password" id="password" placeholder="Enter your password" required>
                         <div class="error" id="passwordError"></div>
 
-                       
+                        <label for="">Comfirm Password</label>
+                        <input type="password" id="comfirmpassword" placeholder="" required>
+                        <div class="error" id="comfirmError"></div>
+
+                        <label class="lab"><a href="">Forgot Password?</a></label><br>
                         
-                        <button type="submit" class="btn" id="submitBtn">Sign in</button>
+                        <button type="submit" class="btn" id="submitBtn" disabled>Sign in</button>
                     </form>
 
                 </div>

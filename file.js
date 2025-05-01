@@ -1,6 +1,11 @@
  
+    const nameInput = document.getElementById('name');
+    const phoneInput = document.getElementById('phone');
+    const dateInput = document.getElementById('date');
+    const genderInput = document.getElementById('gender');
     const emailInput = document.getElementById('email');
     const passwordInput = document.getElementById('password');
+    const comfirmPasswordInput = document.getElementById('confirmPassword');
     const submitBtn = document.getElementById('submitBtn');
 
     const emailError = document.getElementById('emailError');
@@ -18,6 +23,7 @@
         } else {
             emailError.textContent = '';
         }
+        
         // ...password validation...
         if (passwordInput.value.length < 4) {
             passwordError.textContent = 'Password must be at least 4 characters long.';
